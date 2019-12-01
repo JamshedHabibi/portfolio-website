@@ -1,0 +1,61 @@
+.portfolio {
+    position: relative;
+    height: 50vh;
+}
+
+.portfolioTitle {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Cantarell', sans-serif;
+    text-transform: uppercase;
+    background: white;
+    
+}
+
+.portfolioTitle h1 {
+    font-size: 1.8em;
+}
+
+.portfolioTitle:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    width: 100%;
+    height: 4%;
+    background-color: rgb(84, 163, 57);
+}
+
+.arrow-container3 {
+    position: relative;
+    height: 4vh;
+    cursor: pointer;
+}
+
+
+.arrowBtn3 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(80, 80, 80);
+    animation: position-change3 1s infinite;
+    font-size: 2rem;
+}
+
+@keyframes position-change3 {
+    0% {top: 0%}
+    50% {top: -25%}
+    100% {top: 0%}
+}
+
+
+@media screen and (max-width:500px) {
+    .portfolioTitle {
+        font-size: 0.9em;
+        white-space: nowrap;
+    }
+
+
+}

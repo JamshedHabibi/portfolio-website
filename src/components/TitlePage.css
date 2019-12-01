@@ -1,0 +1,81 @@
+.background {
+    background-image: url('../img/photo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 1vh;
+}
+
+.name {
+    letter-spacing: 1.5em;
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: rgb(46, 43, 43);
+    white-space: nowrap;
+}
+
+.subName {
+    color: white;
+    margin-top: 2.3rem;
+    font-size: 1.5em;
+    font-family: 'Cantarell', sans-serif;
+    color: rgb(228, 228, 228);
+
+}
+.arrowBtn1 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(233, 233, 233);
+    animation: color-change 2s infinite;
+    animation: position-change 1s infinite;
+    padding: 5px;
+    font-size: 2rem;
+}
+
+.arrow-container1 {
+    cursor: pointer;
+}
+
+@keyframes position-change {
+    0% {top: 90%}
+    50% {top: 89%}
+    100% {top: 90%};
+}
+
+@media screen and (max-width: 800px) {
+    .name {
+        font-size: 1.25em;
+        letter-spacing: 1.2em;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .name {
+        white-space: normal;
+        font-size: 1.4em;
+        letter-spacing: 1.4em;
+    }
+
+    .subName {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .name {
+        white-space: normal;
+        font-size: 1.25em;
+        letter-spacing: 1.2em;
+    }
+
+    .subName {
+        font-size: 1.1em;
+    }
+}
