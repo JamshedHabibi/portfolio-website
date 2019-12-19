@@ -3,7 +3,7 @@ import './Projects.css'
 
 export default class Projects extends Component {
     render() {
-        const {img, name, id, link, github, react, bootstrap, js, css} = this.props.project;
+        const {img, name, id, link, github, react, bootstrap, js, css, contextApi} = this.props.project;
         return (
             <div className='col-8 col-md-6 col-lg-4 mx-auto p-3'>
                     <div className='card'>
@@ -28,8 +28,10 @@ export default class Projects extends Component {
                             </div>
 
                 
-                            <p className='f1 pb-4'>{react} {js}</p>
-                            <p className='f2'>{bootstrap} {css}</p>    
+                            <p className='f1'>{react} {js}</p>
+                            <p className='f2'>{contextApi}</p>
+                            <p className='f3'>{css}</p> 
+                            <p className='f4'>{bootstrap}</p>    
                         </div>
                     </div>
                     

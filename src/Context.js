@@ -29,22 +29,11 @@ class ProjectProvider extends Component {
         })
     }
 
-    arrowScroll1 = (newSection) => {
+    arrowScroll = (newSection, int) => {
         $('html, body').animate({
-            scrollTop: $(newSection).offset().top - 45
+            scrollTop: $(newSection).offset().top - int
             }, 1000)
         }
-    
-        arrowScroll2 = (newSection) => {
-            $('html, body').animate({
-                scrollTop: $(newSection).offset().top - 100
-                }, 1000)
-            }
-            arrowScroll3 = (newSection) => {
-                $('html, body').animate({
-                    scrollTop: $(newSection).offset().top - 45
-                    }, 1000)
-                }
 
     render() {
         return (
@@ -52,9 +41,7 @@ class ProjectProvider extends Component {
                 value = {{
                     ...this.state,
                     setProjects: this.setProjects,
-                    arrowScroll1: this.arrowScroll1,
-                    arrowScroll2: this.arrowScroll2,
-                    arrowScroll3: this.arrowScroll3,
+                    arrowScroll: this.arrowScroll,
                 }}>
                 {this.props.children}
             </ProjectContext.Provider>

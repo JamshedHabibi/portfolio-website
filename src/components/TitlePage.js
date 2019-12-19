@@ -23,7 +23,7 @@ export default class TitlePage extends Component {
                 return <div className='arrow-container1'>
                             <i 
                             className="arrowBtn1 fas fa-chevron-down"
-                            onClick={() => {value.arrowScroll1('.section2')}}></i>
+                            onClick={() => {value.arrowScroll('.section2', 45)}}></i>
                         </div>
             }}
             </ProjectConsumer>

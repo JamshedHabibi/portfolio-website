@@ -30,7 +30,7 @@ export default class Portfolio extends Component {
                     return <div className='arrow-container3'>
                                 <i 
                                 className="arrowBtn3 fas fa-chevron-down"
-                                onClick={() => {value.arrowScroll3('.section4')}}></i>
+                                onClick={() => {value.arrowScroll('.section4', 45)}}></i>
                                 
                             </div>
                     }}

@@ -55,7 +55,7 @@ export default class AboutMe extends Component {
                                         
                                         <i  
                                         className="arrowBtn2 fas fa-chevron-down"
-                                        onClick={() => {value.arrowScroll2('.Portfolio')}}></i>
+                                        onClick={() => {value.arrowScroll('.Portfolio', 100)}}></i>
                                         
                                     </div>
                             }}
