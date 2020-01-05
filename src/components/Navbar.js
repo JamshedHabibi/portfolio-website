@@ -118,7 +118,7 @@ export default class Navbar extends Component {
                                 }
                                 }}>Portfolio</li>
                             <li>
-                                <a href='/Jamshed Habibi CV.pdf' target='_blank'>CV</a>
+                                <a href='/Jamshed Habibi CV Website.pdf' target='_blank'>CV</a>
                             </li>
                             <li><a href="https://github.com/JamshedHabibi" target='_blank'><i class="fab fa-github"></i></a></li>
                             <li><a href="https://www.linkedin.com/in/jamshed-habibi-9278a114b/" target='_blank'><i class="fab fa-linkedin"></i></a></li>

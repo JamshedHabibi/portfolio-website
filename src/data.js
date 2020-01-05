@@ -15,7 +15,7 @@ export const projectData = [
         name: 'E-Commerce Bike Shop',
         link: 'https://jamsheds-ebike-shop.netlify.com',
         img:  "https://img.archiexpo.com/images_ae/photo-g/153471-12012713.jpg",
-        github: "https://github.com/JamshedHabibi/react-ebike-shop",
+        github: "https://github.com/JamshedHabibi/react-bike-store",
         react: "React",
         contextApi: 'Context API',
         css: 'Styled-Components',
