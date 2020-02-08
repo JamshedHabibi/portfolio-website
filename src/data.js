@@ -1,6 +1,6 @@
 export const projectData = [
 	{
-		id: 1,
+		id: 0,
 		name: 'Melbourne Tours',
 		link: 'https://melbourne-tours.netlify.com',
 		img:
@@ -44,6 +44,18 @@ export const projectData = [
 		github: 'https://github.com/JamshedHabibi/registration-form',
 		js: 'JavaScript',
 		css: 'CSS'
+	},
+	{
+		id: 4,
+		name: 'Cool Stopwatch',
+		link: 'https://jamsheds-stopwatch.netlify.com',
+		img:
+			'https://images.wallpaperscraft.com/image/compass_hand_journey_136931_3415x3415.jpg',
+		github: 'https://github.com/JamshedHabibi/stopwatch',
+		react: 'React',
+		contextApi: 'Context API',
+		css: 'CSS',
+		bootstrap: 'Bootstrap'
 	}
 ];
 
