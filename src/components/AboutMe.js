@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './AboutMe.css';
 import { ProjectConsumer } from '../Context';
-import CSS from '../img/CSS.png';
 import Skills from './Skills';
 
 export default class AboutMe extends Component {

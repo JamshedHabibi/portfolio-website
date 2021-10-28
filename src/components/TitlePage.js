@@ -10,7 +10,8 @@ export default class TitlePage extends Component {
       <Title className="background">
         <Name className="container">
           <div className="row">
-            <h1 className="name text-center mx-auto .d-sm-none">JAMSHED HABIBI</h1>
+            <h1 className="name text-center mx-auto d-none d-sm-block">JAMSHED HABIBI</h1>
+            <h1 className="name text-center mx-auto d-block d-sm-none">J.HABIBI</h1>
           </div>
           <div className="row">
             <p className="subName text-center mx-auto">FRONT-END SOFTWARE DEVELOPER</p>
@@ -24,7 +25,7 @@ export default class TitlePage extends Component {
                 <i
                   className="arrowBtn1 fas fa-chevron-down"
                   onClick={() => {
-                    value.arrowScroll('.section2', 45);
+                    value.arrowScroll('.section2', window.innerWidth <= 800 ? 30 : 45);
                   }}
                 ></i>
               </div>
