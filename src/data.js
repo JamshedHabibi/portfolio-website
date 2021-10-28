@@ -1,6 +1,17 @@
 export const projectData = [
   {
     id: 0,
+    name: 'Blog Website',
+    link: 'https://bambinakatarina.netlify.com',
+    img: 'https://digitalmarketingauthors.com/wp-content/uploads/2018/01/Blog-intro.jpg',
+    github: 'https://github.com/JamshedHabibi/melbourne-tours',
+    js: 'TypeScript',
+    react: 'React/Gatsby',
+    googleFirebase: 'GraphQL',
+    css: 'Emotion CSS-in-JS',
+  },
+  {
+    id: 1,
     name: 'Melbourne Tours',
     link: 'https://melbourne-tours.netlify.com',
     img: 'https://www.tripsavvy.com/thmb/jO1lBr8jp3HVVuAyGIf3ChGhsts=/1428x1428/smart/filters:no_upscale()/cityscape-of-melbourne-city-of-australia-during-the-sunset--873409300-8db98cef20b44200abfb339188d801f7.jpg',
@@ -12,7 +23,7 @@ export const projectData = [
     bootstrap: 'React Semantic UI',
   },
   {
-    id: 1,
+    id: 2,
     name: 'Real Estate Application',
     link: 'https://jamsheds-real-estate.netlify.com',
     img: 'https://michele.blog/wp-content/uploads/2017/02/handing-over-house-key.jpg',
@@ -23,7 +34,7 @@ export const projectData = [
     bootstrap: 'Bootstrap',
   },
   {
-    id: 2,
+    id: 3,
     name: 'E-Commerce Bike Shop',
     link: 'https://jamsheds-ebike-shop.netlify.com',
     img: 'https://img.archiexpo.com/images_ae/photo-g/153471-12012713.jpg',
@@ -34,7 +45,7 @@ export const projectData = [
     bootstrap: 'Bootstrap',
   },
   {
-    id: 3,
+    id: 4,
     name: 'Registration Form',
     link: 'https://jamsheds-registration-form.netlify.com',
     img: 'https://www.thebalancesmb.com/thmb/tBT83K1QjTZQech2ETDJ0-dLqSU=/3840x3840/smart/filters:no_upscale()/GettyImages-608156065-572f6d393df78c038e42aaed.jpg',
@@ -43,7 +54,7 @@ export const projectData = [
     css: 'CSS',
   },
   {
-    id: 4,
+    id: 5,
     name: 'Cool Stopwatch',
     link: 'https://jamsheds-stopwatch.netlify.com',
     github: 'https://github.com/JamshedHabibi/stopwatch',
