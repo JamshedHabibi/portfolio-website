@@ -68,38 +68,43 @@ export const projectData = [
 
 export const skills = [
   {
-    id: 1,
+    name: 'JavaScript',
+    img: 'https://d2908q01vomqb2.cloudfront.net/0716d9708d321ffb6a00818614779e779925365c/2020/12/11/ts-logo-512.png',
+  },
+  {
     name: 'JavaScript',
     img: 'https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/205/square_280/javascriptlang.png',
   },
   {
-    id: 2,
-    name: 'HTML',
-    img: 'https://cdn0.iconfinder.com/data/icons/HTML5/512/HTML_Logo.png',
-  },
-  {
-    id: 3,
-    name: 'CSS',
-    img: 'https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png',
-  },
-  {
-    id: 4,
     name: 'React',
     img: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
   },
   {
-    id: 5,
+    name: 'HTML',
+    img: 'https://cdn0.iconfinder.com/data/icons/HTML5/512/HTML_Logo.png',
+  },
+  {
+    name: 'CSS',
+    img: 'https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png',
+  },
+  {
+    name: 'NGINX',
+    img: 'https://iconape.com/wp-content/png_logo_vector/nginx.png',
+  },
+  {
+    name: 'Git Version Control',
+    img: 'https://uysalmustafa.com/wp-content/uploads/2016/11/git-logo-1.png',
+  },
+  {
+    name: 'Jest',
+    img: 'https://digital.ai/sites/default/files/pictures/styles/maxwidth_300/public/pt_logos/jest.png?itok=dI0IDX4S',
+  },
+  {
     name: 'Bootstrap',
     img: 'https://suavesol.net/wp-content/uploads/2019/06/bootstrap.png',
   },
   {
-    id: 6,
     name: 'JQuery',
     img: 'http://pluspng.com/img-png/jquery-logo-png--800.gif',
-  },
-  {
-    id: 7,
-    name: 'NodeJS',
-    img: 'https://www.cnjobs.dk/drupal/sites/default/files/2019-01/nodejs-01.png',
   },
 ];

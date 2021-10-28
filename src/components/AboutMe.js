@@ -30,11 +30,11 @@ export default class AboutMe extends Component {
                   <strong>My skills include: </strong>
                 </p>
               </div>
-              <div className="skills col-12 col-md-10 mx-auto pt-xl-5 text-center">
+              <div className="skills col-12 col-md-10 mx-auto pt-xl-5 text-center my-0">
                 <ProjectConsumer>
                   {context => {
                     return context.skillSet.map(skill => {
-                      return <Skills key={skill.id} img={skill.img} />;
+                      return <Skills key={skill} img={skill.img} />;
                     });
                   }}
                 </ProjectConsumer>
